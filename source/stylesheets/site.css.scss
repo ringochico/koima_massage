@@ -151,6 +151,8 @@
 // content
 .content {
   display: flex;
+    padding: 9px 0;
+    font-size: 15px;
 }
 
 .title {
@@ -159,3 +161,45 @@
   align-items: center;
   justify-content: center
 }
+
+
+// massage info
+
+.container-content-about {
+
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 39px;
+
+}
+
+.about-masseuse {
+  text-align: justify;
+  h1 {
+    text-align: center;
+  }
+}
+.massage-info{
+  text-align: center;
+
+
+
+}
+.gray-wrapper {
+  background-color: gray;
+}
+
+.massage-list {
+  justify-content: space-between;
+  display: flex;
+
+    li {
+      font-size: 20px;
+      font-weight: bolder;
+      font-color: aqua;
+    }
+}
+.massage-description {
+  width: 30%;
+}
+
